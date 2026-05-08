@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home - Arcane Library</title>
+        <link rel="stylesheet" href="Frontstyles.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo-principal">Arcane Library</h1>
+        </header>
+        <img id="banner" src="banner.jpg">
+        <div class="principal">
+            <h2 class="titulo-centralizado">Bem-vindo à Arcane Library</h2>
+            
+            <p>Olá! Que alegria ter você aqui conosco. 🎉</p>
+            
+            <p>A <strong>Arcane Library</strong> é mais do que uma biblioteca - é um refúgio para conhecimento, inspiração e descobertas. Somos um espaço acolhedor onde cada visitante é valorizado e onde as histórias ganham vida.</p>
+            
+            <p>Se você é um apaixonado por livros, um pesquisador em busca de fontes confiáveis ou simplesmente alguém que procura um lugar tranquilo para aprender e crescer, este é o seu lugar.</p>
+            
+            <h3 class="titulo-centralizado">O que você encontrará aqui:</h3>
+            <ul>
+                <li class="itens">📚 Uma vasta coleção de obras literárias</li>
+                <li class="itens">👥 Profissionais dedicados e atenciosos</li>
+                <li class="itens">🏛️ Um ambiente acolhedor e inspirador</li>
+                <li class="itens">🔍 Fontes confiáveis de conhecimento</li>
+            </ul>
+            
+            <p id="missao"><em>Nossa missão é simples: <strong>"Proporcionar um ambiente saudável, qualidade de vida e bastante fonte de conhecimento aos clientes"</strong>.</em></p>
+            
+            <p>Explore nossa coleção, descubra novos mundos e embarque em jornadas inesperadas através das páginas. Estamos aqui para tornar sua experiência memorável.</p>
+            
+            <p><strong>Bem-vindo à sua próxima grande descoberta! 📖✨</strong></p>
+            
+            <img src="library.png" class="imagem">
+        </div>
+    </body>
+</html>
+
