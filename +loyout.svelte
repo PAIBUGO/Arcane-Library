@@ -1,17 +1,13 @@
 <script lang="ts">
 	import '../app.css';
 	import Menu from '../components/Menu.svelte';
-	import { onMount } from 'svelte';
 	import { themeStore, applyTheme } from '$lib/themeStore';
-	import type { Season } from '$lib/themeStore';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
-	let currentTheme: Season;
 
-	// Subscribe to theme changes
 	onMount(() => {
 		themeStore.subscribe((theme) => {
-			currentTheme = theme;
 			applyTheme(theme);
 		});
 	});
@@ -23,4 +19,3 @@
 		{@render children()}
 	</div>
 </main>
-
